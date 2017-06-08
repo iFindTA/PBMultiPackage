@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.0.2)
-  - PBKits (0.5.147)
+  - PBKits (0.5.148)
 
 DEPENDENCIES:
   - Masonry
@@ -8,7 +8,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  PBKits: e52df5eb399555f23a73d8bc051bf0522e66ba9b
+  PBKits: 31b660fbbac3977193fecb86194ba02a8f581c09
 
 PODFILE CHECKSUM: c6bdd847b4de60112d663a9a15d45dd5b9a13aa7
 

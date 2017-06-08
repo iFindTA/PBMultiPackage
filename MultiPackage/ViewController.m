@@ -24,6 +24,7 @@
     
     
     NSString *cnn = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Channel"];
+    cnn = [NSBundle pb_mainBundle4key:@"Channel" atPlist:@"custom"];
     CGRect bounds = CGRectZero;
     CGFloat offset = 100;
     UILabel *label = [[UILabel alloc] initWithFrame:bounds];

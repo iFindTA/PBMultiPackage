@@ -39,7 +39,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>Channel</key>
-	<string>origin</string>
 </dict>
 </plist>
