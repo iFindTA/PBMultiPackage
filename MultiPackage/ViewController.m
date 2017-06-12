@@ -23,8 +23,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    NSString *cnn = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Channel"];
-    cnn = [NSBundle pb_mainBundle4key:@"Channel" atPlist:@"custom"];
+    NSDictionary *cnnMap = [NSBundle pb_mainBundle4Key:@"MCCustom"];
+    NSString *cnn = [cnnMap objectForKey:@"Channel"];
     CGRect bounds = CGRectZero;
     CGFloat offset = 100;
     UILabel *label = [[UILabel alloc] initWithFrame:bounds];
@@ -39,8 +39,10 @@
         make.height.equalTo(@(offset * 0.5));
     }];
     
+    UIImage *img = [UIImage imageNamed:@"dock"];
     UIImageView *imgv = [[UIImageView alloc] initWithFrame:bounds];
     imgv.contentMode = UIViewContentModeScaleAspectFill;
+    imgv.image = img;
     [self.view addSubview:imgv];
     [imgv mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(label.mas_bottom).offset(offset);

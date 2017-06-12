@@ -2,7 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Channel</key>
-	<string>syjcy</string>
+	<key>MCCustom</key>
+	<dict>
+		<key>Channel</key>
+		<string>syjcy</string>
+		<key>balanceUri</key>
+		<string>https://baidu.com/</string>
+	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>检查密信通</string>
 </dict>
 </plist>
